@@ -1,3 +1,65 @@
+/* основной текст - #000000
+вторичный текст - #757575
+навигация ссылки - #212121
+акцент - #2196F3 */
+
+:root {
+	--primaty-text-color: #757575;
+	--title-text-color: #000000;
+	--accent-color: #2196f3;
+}
+
+body {
+	color: var(--primaty-text-color);
+}
+
 .list {
 	list-style: none;
+}
+
+.logo-link {
+	color: var(--title-text-color);
+}
+
+.logo-link span {
+	color: var(--accent-color);
+}
+
+.site-nav .link {
+	color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-mail:hover,
+.site-mail:focus,
+.site-phone:hover,
+.site-phone:focus {
+	color: var(--accent-color);
+}
+
+.site-phone,
+.site-mail {
+	color: var(--primaty-text-color);
+}
+
+.section-title {
+	color: #212121;
+}
+
+.hero {
+	background-color: #2f303a;
+}
+
+.hero-title {
+	color: #ffffff;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.button {
+	color: #ffffff;
+	background-color: var(--accent-color);
 }
